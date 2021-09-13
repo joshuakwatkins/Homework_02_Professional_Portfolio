@@ -146,7 +146,7 @@ ul {
 
 .work-card {
     position: relative;
-    height: 150px;
+    height: 200px;
     display: flex;
     margin: 1%;
     border: 5px solid rgb(87, 117, 148);
@@ -188,6 +188,38 @@ ul {
 }
 
 .work-card-title h3, .work-card-title p {
+    padding: 0px 10px;
+    color: rgb(235, 224, 201);
+}
+
+.add-work-card {
+    position: relative;
+    height: 100px;
+    display: flex;
+    margin: 1%;
+    border: 5px solid rgb(87, 117, 148);
+    box-shadow: inset 0 0 0 100vmax rgba(47, 87, 124, 0.35);
+    flex: 1 1 100%;
+    padding: 2%;
+    transition: all .5s;
+}
+
+.add-work-card:hover {
+    box-shadow: none;
+    height: 300px;
+}
+
+.add-work-card-title {
+    position: absolute;
+    left: -2px;
+    bottom: 15px;
+    background-color: rgba(54, 74, 94, 0.8);
+    width: auto;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+}
+
+.add-work-card-title h3, .add-work-card-title p {
     padding: 0px 10px;
     color: rgb(235, 224, 201);
 }
