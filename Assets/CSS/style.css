@@ -61,7 +61,7 @@ figure {
 ul {
     padding-inline-start: 0px;
 }
-
+/* This logo class and hover pseudo class are responsible for the name's styling */
 .logo {
     color:rgb(235, 224, 201);
     transition: color .25s;
@@ -94,6 +94,7 @@ ul {
     background-color: rgba(54, 74, 94, 0.7);
 }
 
+/* This class makes a blank span stretch the entire width and height of the container, and when placed inside an <a> tag it will make the whole container clickable */
 .link-span {
     position:absolute; 
     width:100%;
@@ -102,7 +103,7 @@ ul {
     left: 0;
     z-index: 1;
 }
-
+/* This flex container holds a row with two items, the label on the left with the class called the side-title and the content on the right in a container called a variation of portfolio-card. */
 .portfolio-container {
     display:flex;
     flex-direction: row;
@@ -110,7 +111,7 @@ ul {
     width: 90%;
     margin: 30px auto;
 }
-
+/* These are the classes for the container of primary content (about me text, portfolio items) for the various sections. */
 .portfolio-card {
     flex: 3 3 75%;
     display: flex;
@@ -129,7 +130,7 @@ ul {
     flex-flow: row wrap;
     padding-left: 30px;
 }
-
+/* This is the styling for the section titles on the left */
 .side-title {
     flex: 0 1 25%;
     border-right:5px solid rgb(87, 117, 148);
@@ -143,7 +144,7 @@ ul {
     font-weight: 200;
     padding-right: 25px;
 }
-
+/* This is the individual portfolio items */
 .work-card {
     position: relative;
     height: 200px;
@@ -159,7 +160,7 @@ ul {
 .work-card:hover {
     box-shadow: none;
 }
-
+/* This is the featured portfolio item */
 .hero-card {
     position: relative;
     width: 100%;
@@ -176,7 +177,7 @@ ul {
 .hero-card:hover {
     box-shadow: none;
 }
-
+/* This is the portfolio item title overlay */
 .work-card-title {
     position: absolute;
     left: -2px;
@@ -191,7 +192,7 @@ ul {
     padding: 0px 10px;
     color: rgb(235, 224, 201);
 }
-
+/* this is the additional works portfolio item styling */
 .add-work-card {
     position: relative;
     height: 100px;
@@ -223,14 +224,14 @@ ul {
     padding: 0px 10px;
     color: rgb(235, 224, 201);
 }
-
+/* this is the about me portrait */
 .portrait {
     max-width: 100px;
     height: auto;
     float: left;
     margin: 20px 15px 10px 15px;
 }
-
+/* this is the contact content styling */
 .contact {
     display: flex;
     flex-flow: row wrap;
@@ -245,7 +246,7 @@ ul {
     padding: 15px;
 
 }
-
+/* These IDs put background images into each of the portfolio cards. */
 #photography {
     background-image: url(../Images/photography.jpg);
     background-position: top;
@@ -280,7 +281,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* this media inquiry reduces the site to a single column */
 @media screen and (max-width: 962px) {
     header {
         position: relative;
