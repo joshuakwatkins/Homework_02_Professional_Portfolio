@@ -7,4 +7,4 @@ I followed the brief and created a page that is navigable using the links in the
 
 You can find the project at this link: https://joshuakwatkins.github.io/Homework_02_Professional_Portfolio/
 
-![Image of whole site screenshot](./assets/images/whole-site-screenshot.png)
+![Image of whole site screenshot](./Assets/Images/whole-site-screenshot.png)
