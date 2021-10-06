@@ -281,6 +281,20 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#halfway-there {
+    background-image: url(../Images/halfway-there.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#daily-planner {
+    background-image: url(../Images/daily-planner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* this media inquiry reduces the site to a single column */
 @media screen and (max-width: 962px) {
     header {
