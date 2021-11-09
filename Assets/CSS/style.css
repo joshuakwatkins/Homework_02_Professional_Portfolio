@@ -295,6 +295,13 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#professionaleyes {
+    background-image: url(../Images/professionaleyes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* this media inquiry reduces the site to a single column */
 @media screen and (max-width: 962px) {
     header {
